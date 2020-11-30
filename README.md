@@ -20,3 +20,7 @@ or using npm with the following command
 ```
 npm i && npm start
 ```
+
+## Accessing it online
+
+Instead of donwloading it and running locally, you can access it in [this link](https://priceless-chandrasekhar-fa1239.netlify.app/)
