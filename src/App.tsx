@@ -50,6 +50,7 @@ const App = () => {
         ))
       
     })
+    // eslint-disable-next-line
   }, [historyIndex]);
 
   const getCanvasWithContext = (canvas = canvasRef.current) => ({
@@ -58,7 +59,6 @@ const App = () => {
 
   const startDrawing = ({ nativeEvent }: React.MouseEvent) => {
     const { offsetX, offsetY } = nativeEvent;
-    console.log({ offsetX, offsetY })
     dispatch(beginStroke(offsetX, offsetY))
   }
 

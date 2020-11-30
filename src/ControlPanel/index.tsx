@@ -1,16 +1,11 @@
 import React from "react"
-import { useDispatch, useSelector } from "react-redux"
-import { historyIndexSelector } from "../selectors"
+import { useDispatch } from "react-redux"
 import { undo, redo } from "../actions"
 
 
 export const ControlPanel = () => {
   const dispatch = useDispatch()
-  const historyIndex = useSelector(historyIndexSelector);
 
-  const handleRedo = () => {
-    
-  }
 
   const isUndoDisabled = false;
   const isRedoDisabled = false;
